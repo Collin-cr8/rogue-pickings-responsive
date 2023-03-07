@@ -208,7 +208,7 @@ footer span {
 	/* Width:29% */
 	width: 29%;
 }
-
+}
 /*Desktop Styles*/
 @media all and (min-width: 1200px) {
 
@@ -217,11 +217,13 @@ footer span {
 	}
 	
 	header {
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 		padding: 20px 0;
 	}
-	
+	.content-wrapper {
+		justify-content: space-between;
+	}
 	header h1 {
 		width: 30%;
 		padding: 0;
